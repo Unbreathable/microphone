@@ -1,0 +1,11 @@
+[package]
+name = "rust_lib_microphone"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+cpal = "0.15.3"
+flutter_rust_bridge = "=2.0.0-dev.28"
